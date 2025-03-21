@@ -1,1 +1,6 @@
 
+
+kubectl config set-context --current --namespace=car-auction-project
+
+
+kubectl exec -it <pod-name> -- /bin/sh
