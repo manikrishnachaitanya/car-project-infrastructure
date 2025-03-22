@@ -7,3 +7,6 @@ kubectl exec -it <pod-name> -- /bin/sh
 
 
 kubectl scale --replicas=1 deployment/car-services
+
+
+kubectl get pods
