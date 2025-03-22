@@ -36,4 +36,6 @@ kubectl delete deployment <deployment-name>
 kubectl get services
 
 
+kubectl get service nginx-service -o yaml > nginx-service.yaml
+
 kubectl logs <pod-name>
