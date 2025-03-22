@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: car-services
-          image: chaitanya2012/car-services:f8a5eda0d0319c587f3412aa828442d0b0091862 # Change to your Docker Hub image
+          image: chaitanya2012/car-services:latest # Change to your Docker Hub image
           ports:
             - containerPort: 8090
       imagePullSecrets:
