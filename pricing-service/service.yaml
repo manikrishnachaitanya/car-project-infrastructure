@@ -8,6 +8,6 @@ spec:
       app: pricing-service # Replace with your deployment's label
   ports:
     - protocol: TCP
-      port: 8081         # Service port
-      targetPort: 8081  # Port on the container
+      port: 8093         # Service port
+      targetPort: 8093  # Port on the container
   type: ClusterIP     # Use LoadBalancer or NodePort if external access is needed
