@@ -7,6 +7,9 @@ kubectl create secret docker-registry my-docker-hub-secret --docker-username=cha
   --docker-password="Universal*9" \
   --docker-email=chaitanya2012@ymail.com
 
+
+kubectl get secrets
+
 kubectl config set-context --current --namespace=car-auction-project
 
 
