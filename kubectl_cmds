@@ -10,3 +10,20 @@ kubectl scale --replicas=1 deployment/car-services
 
 
 kubectl get pods
+
+
+kubectl get deployments
+
+kubectl describe pod <pod-name>
+
+kubectl apply -f <deployment-file>.yaml
+
+
+kubectl delete deployment <deployment-name>
+
+
+
+kubectl get services
+
+
+kubectl logs <pod-name>
