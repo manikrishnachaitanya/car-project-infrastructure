@@ -1,4 +1,4 @@
-kubectl create secret docker-registry my-docker-hub-secret --docker-username=chaitanya2012 --docker-password=Universal*9 --docker-email=chaitanya2012@ymail.com
+kubectl create secret docker-registry my-docker-hub-secret --docker-username=chaitanya2012 --docker-password="Universal*9" --docker-email=chaitanya2012@ymail.com
 
 
   kubectl create secret docker-registry docker-hub-secret \
