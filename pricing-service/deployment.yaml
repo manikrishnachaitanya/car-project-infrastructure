@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: pricing-service
-          image: chaitanya2012/pricing-service # Change to your Docker Hub image
+          image: chaitanya2012/pricing-service:cf901d4790ce939d5c1dc6803ae90d5c3c9975a8
           ports:
             - containerPort: 8093
       imagePullSecrets:
