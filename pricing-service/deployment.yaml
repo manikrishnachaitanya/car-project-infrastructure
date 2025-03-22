@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: pricing-service
-          image: chaitanya2012/pricing-service:cf901d4790ce939d5c1dc6803ae90d5c3c9975a8
+          image: chaitanya2012/pricing-service:a8105d8676488bf99432db7101f3517c672356d0
           ports:
             - containerPort: 8093
       imagePullSecrets:
