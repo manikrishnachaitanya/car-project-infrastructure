@@ -29,6 +29,9 @@ kubectl describe pod <pod-name>
 kubectl apply -f <deployment-file>.yaml
 
 
+kubectl port-forward svc/car-service-service 8081:8084
+
+
 kubectl delete deployment <deployment-name>
 
 
