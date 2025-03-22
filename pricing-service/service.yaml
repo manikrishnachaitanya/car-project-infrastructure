@@ -4,8 +4,7 @@ metadata:
   name: pricing-service-service
 spec:
   selector:
-    matchLabels:
-      app: pricing-service # Replace with your deployment's label
+    app: pricing-service # Replace with your deployment's label
   ports:
     - protocol: TCP
       port: 8093         # Service port
